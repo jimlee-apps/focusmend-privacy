@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy: FocusMend</title><style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:#fafafa;color:#222;line-height:1.6;margin:0}main{max-width:720px;margin:0 auto;padding:32px 20px}h2{margin-top:0}h3{margin-top:1.8em}code{background:#eee;padding:1px 4px;border-radius:3px}mark.open{background:#ffe066;border:1px solid #e0a800;padding:0 3px;font-weight:600}</style></head><body><main>
 <h2>Privacy Policy: FocusMend</h2>
-<p><strong>Effective date:</strong> <mark class="open">[OPEN] [PLACEHOLDER: YYYY-MM-DD]</mark><br />
+<p><strong>Effective date:</strong> November 5, 2026<br />
 <strong>Developer:</strong> Jim Lee, Taiwan<br />
 <strong>Contact:</strong> jim120791185@gmail.com</p>
 <h3>The short version</h3>
 <p>FocusMend doesn't collect your data. There's no account, no ads, no analytics and no tracking. Everything you create in FocusMend stays on your Mac.</p>
 <h3>What FocusMend stores, and where</h3>
-<p>To work, FocusMend saves the following <strong>only on your Mac</strong>, in its own folder inside <code>~/Library/Application Support</code>: (<code>~/Library/Application Support/Baud</code>)</p>
+<p>To work, FocusMend saves the following <strong>only on your Mac</strong>. On the Mac, the app's identifier is <code>com.focusmend.app</code>.</p>
+<p>In its data folder, <code>~/Library/Application Support/FocusMend</code>:</p>
 <ul>
 <li><strong>Focus sessions:</strong> when they start and stop, which mode, and how long you focused.</li>
 <li><strong>Tasks and habits:</strong> the names you type, how they repeat, their focus length, and when you checked them off.</li>
+</ul>
+<p>In its settings file, <code>~/Library/Preferences/com.focusmend.app.plist</code> (separate from the data folder):</p>
+<ul>
 <li><strong>Settings:</strong> e.g. your daily target, workday hours, theme (System, Light or Dark), menu bar options and clock format.</li>
 <li><strong>Display name:</strong> used for the greeting (e.g. "Good work, Alex"). By default FocusMend uses the first word of your Mac account's full name. You can change it in Setup. It never leaves your Mac.</li>
 </ul>
@@ -25,23 +29,25 @@
 <h3>Deleting your data</h3>
 <ul>
 <li>In FocusMend: <strong>Setup &gt; Reset Data &gt; Reset All History</strong> deletes every saved focus session. <strong>Reset Today</strong> clears today's sessions and any running timer. Delete individual tasks on the Tasks tab.</li>
-<li>To remove everything, quit FocusMend, delete the app, and delete its data folder inside <code>~/Library/Application Support</code>. (<code>~/Library/Application Support/Baud</code>)</li>
+<li>To remove everything, quit FocusMend, delete the app, and delete its data folder <code>~/Library/Application Support/FocusMend</code>, plus its settings file <code>~/Library/Preferences/com.focusmend.app.plist</code>.</li>
+<li>If you used an earlier version of the app under its previous name, Baud, FocusMend copied your data on first launch and left the old copies in place. For a full wipe, also delete <code>~/Library/Application Support/Baud</code> and <code>~/Library/Preferences/com.baud.app.plist</code>.</li>
 <li>Your own Mac backups (e.g. Time Machine) may contain a copy of FocusMend's data, as with any app. That copy is under your control.</li>
 </ul>
 <h3>Download and purchases</h3>
 <ul>
-<li>FocusMend v1.0 is free and is downloaded from Payhip (<a href="https://payhip.com/b/Td4vf">https://payhip.com/b/Td4vf</a>). It is not on the Mac App Store. Payhip handles the download page; see Payhip's own privacy policy for what it collects when you visit or download. FocusMend itself receives nothing from Payhip.</li>
-<li>The app has no paywall, no In-App Purchase and no StoreKit. The Mac app is free only, with no license key. Pro features are planned for the iPhone app; this policy will be updated before any paid feature exists.</li>
+<li>FocusMend v1.1 is free and is downloaded from Payhip (<a href="https://payhip.com/b/Td4vf">https://payhip.com/b/Td4vf</a>). It is not on the Mac App Store. Payhip handles the download page; see Payhip's own privacy policy for what it collects when you visit or download. FocusMend itself receives nothing from Payhip.</li>
+<li>The app has no paywall, no In-App Purchase and no StoreKit. The Mac app is free only, with no license key. Pro features are planned for the iPhone app (app identifier <code>com.focusmend.ios</code>, Pro product <code>com.focusmend.pro</code>); this policy will be updated before any paid feature exists.</li>
 </ul>
 <h3>Crash reports</h3>
 <p>If you've turned on <strong>System Settings &gt; Privacy &amp; Security &gt; Analytics &amp; Improvements &gt; Share with app developers</strong>, Apple may share anonymous crash and performance reports for FocusMend with me. I use them only to fix bugs. You can turn this off any time in that setting.</p>
 <h3>If you email me</h3>
-<p>If you contact me for support, I receive your email address and whatever you write. I use it only to reply to you. I don't add you to any mailing list. <mark class="open">[OPEN] [CONFIRM: retention, e.g. "I delete support emails after 12 months"]</mark></p>
+<p>If you contact me for support, I receive your email address and whatever you write. I use it only to reply to you. I don't add you to any mailing list. I delete support emails once your issue is solved.</p>
 <h3>Children</h3>
 <p>FocusMend doesn't collect personal information from anyone, including children.</p>
 <h3>Changes</h3>
 <p>If this policy changes, I'll update this page and the effective date above. If FocusMend ever starts collecting data, I'll say so here and on the download page first.</p>
 <h3>Contact</h3>
-<p>jim120791185@gmail.com · <mark class="open">[OPEN] [PLACEHOLDER: support page URL]</mark></p>
+<p>jim120791185@gmail.com</p>
 <hr />
+<p>Need help? See <a href="./support.html">Support</a>.</p>
 </main></body></html>
